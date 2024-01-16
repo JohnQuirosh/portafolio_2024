@@ -4,7 +4,7 @@ publishDate: 2020-03-02 00:00:00
 img: /assets/projects/luxebaecr.webp
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  Este proyecto web fue diseñado y desarrollado con la intención de proporcionar a Green Go Costa Rica una plataforma digital moderna y atractiva.
+  Este proyecto web fue concebido y ejecutado con la intención de dotar a Luxe Bae Costa Rica de una plataforma digital moderna y atractiva.
 tags:
   - Turismo
   - Atractivo
@@ -13,7 +13,7 @@ tags:
 
 > ### ¡Bienvenido a Luxe Bae Costa Rica: Un Viaje de Lujo y Exclusividad!</a>
 
-En <a target="_blank" href="https://luxebaecr.com/">Luxe Bae Costa Rica</a>nos embarcamos en un emocionante viaje para diseñar, desarrollar, optimizar y migrar nuestro sitio web, con el objetivo de proporcionar una plataforma de lujo moderna y eficiente.
+En <a target="_blank" href="https://luxebaecr.com/">Luxe Bae Costa Rica</a> nos embarcamos en un emocionante viaje para diseñar, desarrollar, optimizar y migrar nuestro sitio web, con el objetivo de proporcionar una plataforma de lujo moderna y eficiente.
 
 ##### Fase 1: Diseño y Desarrollo Inicial
 
