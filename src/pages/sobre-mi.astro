@@ -6,60 +6,110 @@ import Hero from "../components/Hero.astro";
 ---
 
 <BaseLayout
-  title="About | Jeanine White"
+  title="Sobre mi | John Quiros"
   description="About Jeanine White Lorem Ipsum"
 >
   <div class="stack gap-20">
     <main class="wrapper about">
       <Hero
-        title="About"
-        tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+        title="Sobre mi"
+        tagline="Gracias por su visita. Lea a continuación para saber más sobre mí y mis antecedentes"
       >
         <img
           width="1553"
           height="873"
-          src="/assets/at-work.jpg"
-          alt="Jeanine White at work with a colleague"
+          src="/assets/john.webp"
+          alt="John Working"
         />
       </Hero>
 
       <section>
-        <h2 class="section-title">Background</h2>
+        <h2 class="section-title">Mi experiencia</h2>
         <div class="content">
-          <p>
-            Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a>
-            makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum
-            vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra
-            diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus
-            in ornare.
-          </p>
-          <p>
-            Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget
-            gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat
-            pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh
-            venenatis cras sed felis eget velit. Id diam vel quam elementum
-            pulvinar etiam non.
-          </p>
-          <p>
-            Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut
-            sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor
-            posuere ac ut consequat semper viverra. Viverra accumsan in nisl
-            nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-            pretium fusce.
-          </p>
+          <div class="experiencieItem">
+            <h3>
+              Desarrollador Frontend en <a
+                target="_blank"
+                href="https://digitalfreses.com">Digital Freses</a
+              >
+            </h3>
+            <b>junio 2023 - Presente</b>
+            <p>
+              Líder de proyectos activos, responsable de asegurar que cada
+              desarrollador trabaje con las herramientas necesarias. Mi función
+              es garantizar que los proyectos actuales y nuevos sean rápidos,
+              seguros y altamente eficientes desde el primer momento, tanto en
+              el entorno de desarrollo como en el de producción.
+            </p>
+          </div>
+          <div class="experiencieItem">
+            <h3>
+              Desarrollador web en <a
+                target="_blank"
+                href="https://digitalfreses.com">Bitcode Enterprise</a
+              >
+            </h3>
+            <b>febrero 2023 - junio 2023</b>
+            <p>
+              Mi desempeño en este cargo era la migración de sitios web que
+              empleaban versiones antiguas de bases de datos y gestores de
+              contenido como WordPress y Drupal. Participé activamente en la
+              creación de sitios web con portales personalizados destinados a
+              Sociedades Administradoras de Fondos de Inversiones
+            </p>
+          </div>
+          <div class="experiencieItem">
+            <h3>
+              Desarrollador web en <a
+                target="_blank"
+                href="https://digitalfreses.com">Bamboo</a
+              >
+            </h3>
+            <b>enero 2022 - junio 2022</b>
+            <p>
+              Encargado de mantener proyectos activos, optimizados y seguros. A
+              cargo de la creación de soluciones web como sitios informativos y
+              tiendas en línea. Utilice tecnologías como HTML, CSS, WordPress y
+              JavaScript para el desarrollo frontend, así como PHP para el
+              desarrollo backend junto con bases de datos, especialmente MySQL.
+            </p>
+          </div>
+          <div class="experiencieItem">
+            <h3>
+              Desarrollador web en <a
+                target="_blank"
+                href="https://digitalfreses.com">Publitickets</a
+              >
+            </h3>
+            <b>mayo 2021 - enero 2022</b>
+            <p>
+              Durante mi tiempo en Publitickets, tuve la responsabilidad de
+              crear un sitio web con la capacidad de vender boletos para eventos
+              en línea. Este incluía funciones esenciales como la gestión de
+              hora, fecha, nombre, etc., en las entradas y salidas. Facilité el
+              proceso mediante la habilitación del uso de teléfonos móviles con
+              cámaras para realizar la transacción, así como pistolas lectoras
+              de códigos QR.
+            </p>
+          </div>
         </div>
       </section>
       <section>
-        <h2 class="section-title">Education</h2>
+        <h2 class="section-title">Educación</h2>
         <div class="content">
-          <p>Corporis voluptates tenetur laudantium.</p>
+          <p>- AWS Certified Cloud Practitioner (CLF-C02) Udemy</p>
+          <p>- Desarrollo Frontend (HTML, CSS, JavaScript)</p>
+          <p>- Ultimate JavaScript</p>
         </div>
       </section>
       <section>
-        <h2 class="section-title">Skills</h2>
+        <h2 class="section-title">Habilidades</h2>
         <div class="content">
-          <p>officia unde omnis</p>
+          <p>- Gestión del tiempo</p>
+          <p>- Trabajar bajo presión</p>
+          <p>-Resolución de problemas</p>
+          <p>- Pensamiento estratégico</p>
+          <p>- Buena capacidad de comunicación</p>
         </div>
       </section>
     </main>
@@ -95,7 +145,7 @@ import Hero from "../components/Hero.astro";
   }
 
   .content {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
   }
 
   .content :global(a) {
@@ -123,5 +173,12 @@ import Hero from "../components/Hero.astro";
       display: contents;
       font-size: var(--text-lg);
     }
+  }
+  .experiencieItem p {
+    margin: 15px 0px;
+    text-align: justify;
+  }
+  .experiencieItem:nth-child(even) {
+    margin-top: 40px;
   }
 </style>
