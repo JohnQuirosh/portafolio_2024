@@ -53,12 +53,6 @@ const { title, description } = Astro.props;
             preloader.style.display = "none";
           }
 
-          // Oculta el contenido principal
-          var h1 = document.querySelector("h1");
-          if (h1 instanceof HTMLElement) {
-            h1.style.display = "none";
-          }
-
           // Habilita el scroll
           document.body.style.overflow = "auto";
         }, 4000); // 3000 milisegundos (3 segundos)
