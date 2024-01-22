@@ -8,6 +8,7 @@ description: |
 tags:
   - Woocommerce
   - Turismo
+  - Tour Operador
 ---
 
 > ### Resumen del Proyecto
@@ -16,12 +17,6 @@ tags:
 <b>Cliente:</b> Luxe Bae CR
 </br>
 <b>Objetivo del Proyecto: </b> Desarrollar un sitio web y tienda en línea que permita a los usuarios realizar reservas para tours y hacer consultas sobre los servicios de transferencia de Luxe Bae CR.
-</br>
-Fecha de Inicio: [Fecha de inicio]
-</br>
-Fecha de Finalización: [Fecha de finalización]
-</br>
-Desarrollador: [Tu Nombre/Empresa]
 
 <a target='_blank' href="https://luxebaecr.com/">Luxe Bae CR</a> es una empresa dedicada a proporcionar experiencias de viaje exclusivas y memorables. Especializados en tours variados y servicios de transferencia, Luxe Bae CR se propuso mejorar la accesibilidad a sus servicios mediante la creación de un sitio web que permita a los usuarios realizar reservas de tours de manera eficiente y realizar consultas sobre sus servicios de transferencia.
 
