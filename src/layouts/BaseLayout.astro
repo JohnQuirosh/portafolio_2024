@@ -18,6 +18,8 @@ const { title, description } = Astro.props;
 <html lang="en">
   <head>
     <MainHead title={title} description={description} />
+    <link rel="alternate" hreflang="es" href="https://www.johnquiros.xyz" />
+    <link rel="alternate" hreflang="en" href="https://en.johnquiros.xyz" />
   </head>
   <body>
     <div class="stack backgrounds text-focus-in">
@@ -30,7 +32,7 @@ const { title, description } = Astro.props;
     ></script>
     <script is:inline>
       Weglot.initialize({
-        api_key: "wg_f7ae351c66ce3da0ffd7e235adbb7f884",
+        api_key: "wg_5a62102d4ccd335d707008f03b37877c3",
       });
       // Add “loaded” class once the document has completely loaded.
       addEventListener("load", () =>
