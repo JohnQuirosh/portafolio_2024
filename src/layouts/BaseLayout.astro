@@ -26,7 +26,12 @@ const { title, description } = Astro.props;
       <Footer />
     </div>
 
-    <script>
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"
+    ></script>
+    <script is:inline>
+      Weglot.initialize({
+        api_key: "wg_f7ae351c66ce3da0ffd7e235adbb7f884",
+      });
       // Add “loaded” class once the document has completely loaded.
       addEventListener("load", () =>
         document.documentElement.classList.add("loaded")
