@@ -1,7 +1,7 @@
 ---
 title: Calculator Astro
 publishDate: 2020-03-02 00:00:00
-img: /assets/projects/calculator.jpg
+img: /assets/projects/calculator.webp
 img_alt: Proyecto de calculadora
 description: |
   Un proyecto persona para mejorar mis habilidades en programacíon y diseño
