@@ -1,7 +1,7 @@
 ---
 title: Luxe Bae CR
 publishDate: 2020-03-02 00:00:00
-img: /assets/projects/luxebaecr.webp
+img: /assets/projects/luxebaecr.jpg
 img_alt: Luxe Bae CR un proyecto sobre turismo
 description: |
   Luxe Bae CR es una agencia de transfer y encargada de llevar todos sus clientes a sus destinos o tours.

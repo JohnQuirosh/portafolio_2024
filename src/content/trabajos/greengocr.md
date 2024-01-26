@@ -1,7 +1,7 @@
 ---
 title: Green Go Costa Rica
 publishDate: 2020-03-02 00:00:00
-img: /assets/projects/greengocr.webp
+img: /assets/projects/greengocr.jpg
 img_alt: Luxe Bae CR un proyecto sobre turismo
 description: |
   Green Go Costa Rica especializados en el sector de la consultoría de viajes y los viajes privados ofreciendo únicamente experiencias de calidad excepcional, que muestren lo mejor del país, nuestra naturaleza y nuestra cultura.
